@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=BhuTuka+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Barlow+Condensed:wght@100&family=BhuTuka+Expanded+One&display=swap');
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    background: #EFFFFD;
+}
+
+
+
+.logo a{
+    font-size: 40px;
+    font-weight: 100;
+    float: left;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3D2C8D;
+    letter-spacing: 5px;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: fixed;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+    border-bottom: 1px solid #3D2C8D;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #916BBF;
+}
+
+
+section{
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.center{
+    text-align: center;
+}
+
+span{
+    color: red;
+    font-size: 50px;
+}
+
+.homefoto{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.homefoto img{
+    width: 1000;
+    border-radius: 20%;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+
+.logo-sosmed{
+    width: 30%;
+    margin-left: 0px;
+    display: flex;
+    background-color: #EFFFFD;
+
+}
+/* .logo-sosmed a{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+} */
+
+.fa{
+    width: 100%;
+    margin-right: 5px;
+    padding-right: 5px;
+    background-color: #FFE61B;
+}
+
+.fa-facebook{
+    background-color: #3D2C8D;
+}
+
+
+.logo-sosmed img{
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+a.tbl-biru{
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background-color: rgba(61, 44, 141, 1);
+    transition: all 1s;
+}
+
+.kolom{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    width: 100%;
+    font-size: 20px;
+    color: #3D2C8D;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    margin-right: 20px;
+}
+
+h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+    font-weight: 100;
+    color:#3D2C8D;
+    margin-bottom: 10px;
+    line-height: 50px;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 0%;
+}
+
+h3{
+    text-align: left;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 0%;
+}
+
+p{
+    font-family: 'comic sans ms';
+    font-weight: bold;
+    font-size: 15px;
+}
+
+table{
+    border: 5;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'comic sans ms';
+}
+
+.pdd-list{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+
+.logo-sekolah{
+    width: 25%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.logo-sekolah p{
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.logo-sekolah img{
+    width: 80%;
+    border-radius: 0%;
+}
+
+.logo-gbm{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo-gbm img{
+    width: 100%;
+    border-radius: 20%;
+    margin-left: 10px;
+}
+
+.deskripsi-aktiv{
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FFE61B;
+    font-family: 'comic sans ms';
+    color: #42C2FF;
+}
+
+.kolom-aktiv{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    float: right;
+}
+
+#copyright{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    padding: 30px 0px;
+    margin-top: 0px ;
+}
